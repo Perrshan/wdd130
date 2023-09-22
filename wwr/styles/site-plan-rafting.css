@@ -6,7 +6,7 @@
     --accent1-color: #1B4079;
     --accent2-color: #BBACC1;
     
-    --heading-font: 'Frijole', cursive;
+    --heading-font: 'Frijole', sans-serif;
     --paragraph-font: 'Rubik', sans-serif;
 
     --nav-background-color: #BBACC1;
@@ -20,11 +20,17 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    background-color: var(--primary-color);
+}
+
+.logo{
+    padding: 10px;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 header {
@@ -34,6 +40,7 @@ header {
 
 p {
     padding: 25px;
+    font-size: 20px;
 }
 
 nav {
@@ -56,4 +63,8 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+footer {
+    text-align: center;
 }
