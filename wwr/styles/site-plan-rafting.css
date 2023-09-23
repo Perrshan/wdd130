@@ -9,7 +9,7 @@
     --heading-font: 'Frijole', sans-serif;
     --paragraph-font: 'Rubik', sans-serif;
 
-    --nav-background-color: #BBACC1;
+    --nav-background-color: #A4D4B4;
     --nav-link-color: #1B4079;
     --nav-hover-link-color: #1B4079;
     --nav-hover-background-color: #BBACC1;
@@ -20,7 +20,6 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    background-color: var(--primary-color);
 }
 
 .logo{
@@ -30,12 +29,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 p {
