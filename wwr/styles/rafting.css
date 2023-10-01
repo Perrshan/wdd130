@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Rubik:wght@300&display=swap');
+
+:root {
+    --primary-color: #457EAC;
+    --secondary-color: #A4D4B4;
+    --accent1-color: #1B4079;
+    --accent2-color: #BBACC1;
+    
+    --heading-font: 'Frijole', sans-serif;
+    --paragraph-font: 'Rubik', sans-serif;
+
+    --nav-background-color: #A4D4B4;
+    --nav-link-color: #1B4079;
+    --nav-hover-link-color: #1B4079;
+    --nav-hover-background-color: #BBACC1;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--paragraph-font);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.hero h1 {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 105px;
+    left: 150px;
+    color: var(--secondary-color);
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero article {
+    position: absolute;
+    display: block;
+    top: 730px;
+    left: 215px;
+    background-color: #0a3a54b8;
+    color: white;
+    
+}
+
+.hero article img {
+    width: 150px;
+    float: right;
+    padding: 20px;
+    
+}
+
+.hero p {
+    padding: 25px;
+}
+
