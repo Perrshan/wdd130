@@ -16,10 +16,36 @@
 
 }
 
-nav a {
+header {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.logo img{
+    width: 200px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 40px;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+    
+}
+
+header nav a {
     text-decoration: none;
     color: black;
     font-family: var(--paragraph-font);
+    border: 1px solid black;
+    flex: auto;
+    padding: 10px;
 }
 
 body {
@@ -38,14 +64,9 @@ p {
     font-size: 20px;
 }
 
-
-footer {
-    text-align: center;
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
+    margin-top: 10px;
 }
 
 .hero img {
@@ -62,21 +83,21 @@ footer {
     left: 160px;
     font-size: 45px;
     color: var(--secondary-color);
-    
 }
 
 .hero article {
     position: absolute;
     display: block;
-    bottom: 10px;
-    right: 10px;
-    background-color: #0a3a54b8;
+    bottom: 70px;
+    right: 20px;
+    left: 20px;
+    background-color: #05293cb8;
     color: white;
     
 }
 
 .hero article img {
-    width: 200px;
+    width: 300px;
     float: right;
     padding: 20px;
     
@@ -84,5 +105,55 @@ footer {
 
 .hero p {
     padding: 25px;
+    text-align: center;
 }
+
+.history section{
+    display: grid;
+    grid-template-columns: 300px 250px 300px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.history section h2 {
+    text-align: center;
+}
+
+.history section img {
+    width: 250px;
+}
+
+.adventure h2 {
+    text-align: center;
+}
+
+.adventureimages {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.adventure img {
+    width: 110px;
+}
+
+footer {
+    display: grid;
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+
 
