@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Form | Xave Perry</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Basic HTML and CSS Quiz</legend>
+                <div class="form-item">
+                    <label for="q1">1. What is the symbol for a universal CSS rule?</label>
+                    <input type="text" name="q1" id="q1">
+                </div>
+                <div class="form-item">
+                    <label for="q2">2. What are the 3 main parts of a HTML body?</label>
+                    <textarea name="q2" id="q2" rows="4"></textarea>
+                </div>
+                <div class="form-item">
+                    <label for="q3">3. Which option has the correct formatting for a label with an input type?</label>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>Choose one ...</option>
+                        <option value="wrong">for="q3"... name="q2" id="q3"</option>
+                        <option value="correct">for="q3"... name="q3" id="q3"</option>
+                        <option value="wrong">for="q3"... name="q1" id="q2"</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="q4">4. How many specific ID names can you use per HTML document?</label>
+                    <input type="number" name="q4" id="q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2023 | Basic HTML and CSS Quiz | Xave Perry</p>
+    </footer>
+    
+</body>
+</html>
