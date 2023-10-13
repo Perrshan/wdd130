@@ -48,37 +48,17 @@ body {
     padding: 20px;
 }
 
-h1, h2 {
+h1, h2{
     font-family: var(--heading-font);
     color: var(--accent1-color);
+    text-align: center;
 }
-
 
 p {
     font-size: 20px;
 }
 
-h2 {
-    text-align: center;
-}
-
-footer {
-    display: grid;
-    background-color: var(--primary-color);
-    padding: 20px;
-    margin-top: 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 2fr 1fr;
-}
-
-footer nav a{
-    padding: 10px;
-    text-decoration: none;
-}
-
-form {
+form, .companyinfo{
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -130,6 +110,30 @@ input[type="checkbox"] {
 
 button:hover {
     background-color: var(--secondary-color);
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+footer {
+    display: grid;
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 200px;
 }
 
 .hero {
@@ -186,21 +190,11 @@ button:hover {
 .history section img {
     width: 250px;
 }
-.form-item {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 6fr;
-    padding-bottom: 1rem;
-    
+
+.adventure img {
+    width: 110px;
 }
 
-.logo img{
-    width: 200px;
-}
-
-.subscription {
-    grid-template-columns: 1.4fr 1fr;
-}
 
 .adventureimages, .employeeimages {
     max-width: 900px;
@@ -214,8 +208,18 @@ button:hover {
     width: 245px;
 }
 
-.adventure img {
-    width: 110px;
+.map {
+    text-align: center;
 }
 
+.form-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 6fr;
+    padding-bottom: 1rem;
+    
+}
 
+.subscription {
+    grid-template-columns: 1.4fr 1fr;
+}
