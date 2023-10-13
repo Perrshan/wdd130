@@ -13,7 +13,6 @@
     --nav-link-color: #1B4079;
     --nav-hover-link-color: #1B4079;
     --nav-hover-background-color: #BBACC1;
-
 }
 
 header {
@@ -25,10 +24,6 @@ header {
     background-color: var(--primary-color);
 }
 
-.logo img{
-    width: 200px;
-}
-
 header nav {
     display: flex;
     flex-direction: row;
@@ -36,7 +31,6 @@ header nav {
     margin-right: 40px;
     border: 1px solid black;
     background-color: var(--secondary-color);
-    
 }
 
 header nav a {
@@ -62,6 +56,80 @@ h1, h2 {
 
 p {
     font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+label {
+    text-align: left;
+    padding: 0;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
 }
 
 .hero {
@@ -115,19 +183,26 @@ p {
     margin-top: 10px;
 }
 
-.history section h2 {
-    text-align: center;
-}
-
 .history section img {
     width: 250px;
 }
-
-.adventure h2 {
-    text-align: center;
+.form-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 6fr;
+    padding-bottom: 1rem;
+    
 }
 
-.adventureimages {
+.logo img{
+    width: 200px;
+}
+
+.subscription {
+    grid-template-columns: 1.4fr 1fr;
+}
+
+.adventureimages, .employeeimages {
     max-width: 900px;
     display: flex;
     justify-content: space-around;
@@ -135,25 +210,12 @@ p {
     flex-direction: row;
 }
 
+.employeeimages img{
+    width: 245px;
+}
+
 .adventure img {
     width: 110px;
 }
-
-footer {
-    display: grid;
-    background-color: var(--primary-color);
-    padding: 20px;
-    margin-top: 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 2fr 1fr;
-}
-
-footer nav a{
-    padding: 10px;
-    text-decoration: none;
-}
-
 
 
