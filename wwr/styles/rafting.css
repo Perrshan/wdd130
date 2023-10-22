@@ -116,6 +116,27 @@ figcaption {
     font-size: 20px;
 }
 
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+th {
+    background-color: var(--secondary-color);
+    font-weight: 700;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table caption {
+    font-weight: 700;
+}
+
 footer {
     display: grid;
     background-color: var(--primary-color);
@@ -195,16 +216,15 @@ footer nav a{
     width: 110px;
 }
 
-.adventureimages, .employeeimages {
+.adventureimages, .employeeimages, .tripimages {
     max-width: 900px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: row;
 }
 
-.employeeimages img{
-    width: 245px;
+.employeeimages img, .tripimages img{
+    width: 200px;
 }
 
 .map {
@@ -221,4 +241,25 @@ footer nav a{
 
 .subscription {
     grid-template-columns: 1.4fr 1fr;
+}
+
+.call nav a{
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+}
+
+.trips {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.table section {
+    padding-bottom: 20px;
 }
