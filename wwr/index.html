@@ -6,6 +6,7 @@
     <title>Wet Paddle Rafting Home Page</title>
     <meta name="description" content="This is the homepage of the Wet Paddle Rafting website.">
     <meta name="author" content="Xave Perry">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
@@ -20,12 +21,71 @@
         </nav>
     </header>
     <main>
-        <h2>newsletter Sign Up Form</h2>
-        <form>
-            <legend>Newsletter Sign Up</legend>
-        </form>
-        <h2>Call to action to trips page</h2>
-        <h2>CSS grid layout with pictures explaining website</h2>
+        <section>
+            <div class="hero home">
+                <img src="images/homepicture.png" alt="Epic Rafters">
+                <h1>Come Adventure with Us!</h1>
+            </div>
+        </section>
+
+        <section>
+            <h2>Please sign up for our Newsletter!</h2>
+            <form>
+                <legend>Newsletter Sign Up</legend>
+                <fieldset>
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <div class="call">
+                <section>
+                    <h2>Schedule a trip with us today!</h2>
+                    <nav>
+                        <a href="trips.html">Available Trips</a>
+                    </nav>
+                </section>
+            </div>
+        </section>
+
+        <div class="purpose">
+            <section>
+                <h2>Our Purpose and Offers</h2>
+                <div class="purposeimages">
+                    <div class="column1">
+                        <figure>
+                            <img src="images/purposestatement.png" alt="Trip 1">
+                            <figcaption>Our purpose is to help those seeking for adventure to have an easy place to find great locations where they can go 
+                                white water rafting with our company! We hope to connect with those who are looking for a thrilling and safe ride with
+                                our experienced team. We want everyone to know about Wet Paddle Rafting! </figcaption>
+                        </figure>
+                    </div>
+                    <div class="column2">
+                        <figure>
+                            <img src="images/youth.png" alt="Trip 2">
+                            <figcaption>Youth</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/family.png" alt="Trip 2">
+                            <figcaption>Family</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/senior.png" alt="Trip 2">
+                            <figcaption>Seniors</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div>

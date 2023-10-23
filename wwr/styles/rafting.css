@@ -178,6 +178,14 @@ footer nav a{
     color: var(--secondary-color);
 }
 
+.home h1 {
+    top: 20px;
+    left: 50px;
+    background-color: rgba(6, 31, 107, 0.559);
+    color: white;
+    padding: 20px;
+}
+
 .hero article {
     position: absolute;
     display: block;
@@ -223,8 +231,28 @@ footer nav a{
     flex-direction: row;
 }
 
-.employeeimages img, .tripimages img{
+.employeeimages img, .tripimages img {
     width: 200px;
+}
+
+.purposeimages {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.purposeimages img{
+    width: 400px;
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
+
+.column2 img {
+    width: 200px;
+    height: 115px;
 }
 
 .map {
